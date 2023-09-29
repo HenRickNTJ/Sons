@@ -1,3 +1,3 @@
 function tocaSomMsg(){
-    document.querySelector('.tecla_olha_msg').play();
+    document.querySelector('.#som_tecla_olha_msg').play();
 }
