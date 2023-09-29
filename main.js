@@ -1,1 +1,1 @@
-alert('OLHA MSG');
+alert('Bem vindo');
