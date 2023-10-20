@@ -25,3 +25,38 @@ function tocaSomDia (){
 }
 //chamada ou invocação da função tocaSomDia ao clicar no botão
 document.querySelector('.tecla_bom_dia').onclick = tocaSomDia;
+
+//Declaração/criação da função tocaSomGosta
+function tocaSomGosta (){
+    document.querySelector('#som_tecla_ele_gosta').play();
+}
+//chamada ou invocação da função tocaSomGosta ao clicar no botão
+document.querySelector('.tecla_ele_gosta').onclick = tocaSomGosta;
+
+//Declaração/criação da função tocaSomIhaa
+function tocaSomIhaa (){
+    document.querySelector('#som_tecla_IHÁÁÁ').play();
+}
+//chamada ou invocação da função tocaSomIhaa ao clicar no botão
+document.querySelector('.tecla_IHÁÁÁ').onclick = tocaSomIhaa;
+
+//Declaração/criação da função tocaSomBgd
+function tocaSomBgd (){
+    document.querySelector('#som_tecla_obrigado').play();
+}
+//chamada ou invocação da função tocaSomBgd ao clicar no botão
+document.querySelector('.tecla_obrigado').onclick = tocaSomBgd;
+
+//Declaração/criação da função tocaGosto
+function tocaSomGosto (){
+    document.querySelector('#som_tecla_gosto').play();
+}
+//chamada ou invocação da função tocaSomGosto ao clicar no botãotecla_olha_msg
+document.querySelector('.tecla_gosto').onclick = tocaSomGosto;
+
+//Declaração/criação da função tocaSomUepa
+function tocaSomUepa (){
+    document.querySelector('#som_tecla_ueepa').play();
+}
+//chamada ou invocação da função tocaSomUepa ao clicar no botão
+document.querySelector('.tecla_ueepa').onclick = tocaSomUepa;
