@@ -60,3 +60,8 @@ function tocaSomUepa (){
 }
 //chamada ou invocação da função tocaSomUepa ao clicar no botão
 document.querySelector('.tecla_ueepa').onclick = tocaSomUepa;
+
+//criando a referência constante listaDeTeclas e buscando a classe coletiva .tecla
+const listaDeTeclas = document.querySelectorAll('tecla');
+//chamando a constante listaDeTeclas e o índice 0 do somMsg
+listaDeTeclas[0].onclick = tocaSomMsg
