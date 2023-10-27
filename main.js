@@ -1,14 +1,18 @@
-//Declaração/criação da função tocaSomMsg
-function tocaSomMsg (){
-    document.querySelector('#som_tecla_olha_msg').play();
+//Declaração/criação da função tocaSom
+function tocaSom (idElementoAudio){
+    document.querySelector(idElementoAudio).play();
 }
 
 //criando a referência constante listaDeTeclas e buscando a classe coletiva .tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
-while(contador < 9){
-    listaDeTeclas[contador].onclick = tocaSomMsg;
+while(contador < listaDeTeclas.length){
+    const efeito = listaDeTeclas[contador].classList[1];
+    const idAudio = "#som" + efeito;
+    listaDeTeclas[contador].onclick = function(){
+        tocaSom(idAudio)
+    }
     contador = contador + 1;
     console.log(contador);
 }
