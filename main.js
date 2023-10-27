@@ -4,7 +4,7 @@ function tocaSomMsg (){
 }
 
 //criando a referência constante listaDeTeclas e buscando a classe coletiva .tecla
-const listaDeTeclas = document.querySelectorAll('tecla');
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
 while(contador < 9){
